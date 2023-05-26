@@ -15,4 +15,6 @@ bgcolor("black")
 for i in range(50):
     square(50 + i * 5)
     left(10)
+    
+exitonclick()
 done()
