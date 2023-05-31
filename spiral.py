@@ -16,4 +16,5 @@ def draw_spiral():
 
 
 draw_spiral()
+turtle.exitonclick()
 turtle.done()
