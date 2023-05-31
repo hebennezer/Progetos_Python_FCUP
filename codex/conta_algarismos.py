@@ -5,5 +5,5 @@ def algarismos(n):
         cont += 1
     return cont
 
+
 print(algarismos(9733))
-        

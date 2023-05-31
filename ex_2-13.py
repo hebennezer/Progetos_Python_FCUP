@@ -3,5 +3,6 @@ def valor(v):
     total = sum(v) * litro_gas
     return total
 
+
 final = valor([24.8, 49.2])
 print(final)

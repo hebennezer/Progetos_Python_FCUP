@@ -9,4 +9,5 @@ def triangular(n):
     else:
         return False
 
+
 print(triangular(10))

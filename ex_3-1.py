@@ -14,10 +14,13 @@ while i < len(tempC):
     print(tempC[i])
     i += 1 """
 
-#(d)
+# (d)
+
+
 def celsius():
     for celsius in tempC:
         fahrenheit = celsius*(5 / 9) + 32
         print(f"Graus Celcios: {celsius}\tGraus Fahrenheit: {fahrenheit:.1f}")
+
 
 celsius()

@@ -4,4 +4,3 @@ def triangulo(a, b, c):
     else:
         return False
 
-print(triangulo(1, 7, 9))

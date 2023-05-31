@@ -12,6 +12,7 @@ def classifica(p):
     else:
         return "excelente"
 
+
 print(classifica(-1))
 print(classifica(0))
 print(classifica(50))
@@ -19,5 +20,3 @@ print(classifica(70))
 print(classifica(80))
 print(classifica(90))
 print(classifica(102))
-
-    

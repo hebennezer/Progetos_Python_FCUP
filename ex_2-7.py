@@ -3,4 +3,5 @@ def tabela_quadrado(n):
         quadrado = i ** 2
         print(f"{i} {quadrado}")
 
+
 tabela_quadrado(int(input("N: ")))

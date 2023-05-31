@@ -5,12 +5,12 @@ xs = [5, 0, 42, 10, 24, 30, 81]
 for i in xs:
     print(i)
 
-#(b)
+# (b)
 for i in xs:
-	print(i, int(math.pow(i, 2)), int(math.sqrt(i)))
+    print(i, int(math.pow(i, 2)), int(math.sqrt(i)))
 
-#(c)
-total= 0
+# (c)
+total = 0
 for i in xs:
     total += i
     print(i, total)
