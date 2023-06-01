@@ -7,10 +7,11 @@ def draw_spiral():
     colors = ["red", "orange", "yellow", "green", "blue", "purple"]
     length = 10
     angle = 90
-    for i in range(200):
+
+    for i in range(138):
         turtle.forward(length)
         turtle.right(angle)
-        length += 10
+        length += 5
         angle -= .01
         turtle.pencolor(colors[i % len(colors)])
 
