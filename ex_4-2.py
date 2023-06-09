@@ -1,4 +1,4 @@
-def conta_letras(txt):
+def apenas_letras(txt):
     A = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     a = A.lower()
     for i in txt:
@@ -7,5 +7,6 @@ def conta_letras(txt):
     return True
 
 
-print(conta_letras("Ola, Mundo"))
-print(conta_letras("Abracadabra"))
+print(apenas_letras("Ola, Mundo"))
+print(apenas_letras("Abracadabra"))
+print(apenas_letras("jQ3:mT_"))

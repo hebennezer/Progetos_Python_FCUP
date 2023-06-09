@@ -16,5 +16,3 @@ def vigenere(chave, txt):
 
 print(vigenere("LUAR", "ATAQUEDEMADRUGADA"))
 print(vigenere("LUAR", "LNAHFYDVXUDIFAAUL"))
-
-            
