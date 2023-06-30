@@ -14,8 +14,8 @@ def histograma(txt):
         print(letra, ":", count[letra])
 
 
-print(histograma("As armas e os barões assinalados, \
+histograma("As armas e os barões assinalados, \
             Que da ocidental praia Lusitana, \
             Por mares nunca de antes navegados, \
             Passaram ainda além da Taprobana, \
-            Em perigos e guerras esforçados,"))
+            Em perigos e guerras esforçados,")

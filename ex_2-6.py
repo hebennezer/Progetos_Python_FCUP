@@ -7,7 +7,7 @@ for i in xs:
 
 # (b)
 for i in xs:
-    print(i, int(math.pow(i, 2)), int(math.sqrt(i)))
+    print(i, int(math.pow(i, 2)), round(math.sqrt(i), 2))
 
 # (c)
 total = 0

@@ -13,11 +13,12 @@ def conta_letras(txt):
     for letra in letra_ordenadas:
         print(letra, ":", conta_letras[letra])    
 
-print(conta_letras("A luz do sol é amarela"))
-print(conta_letras(\
+conta_letras("A luz do sol é amarela")
+print(20 * "-")
+conta_letras(\
                    "As armas e os barões assinalados, \
             Que da ocidental praia Lusitana, \
             Por mares nunca de antes navegados, \
             Passaram ainda além da Taprobana, \
             Em perigos e guerras esforçados," \
-                ))
+                )
